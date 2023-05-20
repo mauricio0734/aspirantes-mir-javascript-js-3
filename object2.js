@@ -7,7 +7,7 @@ const persona = {
 console.log(persona);
 
 function presentacion(person){
-return 'Hola, mi nombre es $(person.nombre}, tengo ${person.edad} años, soy de ${person.ciudad} y soy ${person.profesion}'
+return `Hola, mi nombre es ${person.nombre}, tengo ${person.edad} años, soy de ${person.ciudad} y soy ${person.profesion}`
 }
 
 const mensaje = presentacion(persona);

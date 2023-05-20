@@ -27,7 +27,6 @@ console.log(' Hola me llamo: '+ Pedro.nombre);
  // }
 /*
 Pedro['Descripción'] = function(){
-return 'Hola mi nombre es ${this.nombre}. tengo ${this.edad} años y mis hobbies son: ${this.hobbies.
-join(',')}';
-}
-*/
+return `Hola mi nombre es ${this.nombre}. tengo ${this.edad} años y mis hobbies son: ${this.hobbies.
+join(',')}`;
+}  */
